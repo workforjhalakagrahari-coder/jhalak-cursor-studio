@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f9f6f2" />
+  <meta name="description" content="Jhalak Agrahari — social media strategy, storytelling and influencer marketing. A creative, recruiter-friendly portfolio of work, roles and ideas." />
+  <title>Jhalak Agrahari | Social Media & Influencer Marketing</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="canonical" href="https://workforjhalakagrahari-coder.github.io/jhalak-cursor-studio/" />
+  <link rel="manifest" href="site.webmanifest" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jhalak Agrahari | The Cursor Studio" />
+  <meta property="og:description" content="Social media strategy, content and creator partnerships. Explore Jhalak’s career and download her résumé." />
+  <meta property="og:url" content="https://workforjhalakagrahari-coder.github.io/jhalak-cursor-studio/" />
+  <meta property="og:image" content="https://workforjhalakagrahari-coder.github.io/jhalak-cursor-studio/assets/social-share.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to portfolio</a>
+  <div class="scroll-line" aria-hidden="true"></div>
+  <div class="intro" id="intro" hidden aria-label="Opening Jhalak's portfolio">
+    <div class="intro-door intro-door--left"><span class="intro-sigil">JA<span class="mini-star">✳</span></span></div>
+    <div class="intro-door intro-door--right"><span class="intro-note">A little strategy.<br />A lot of personality.</span></div>
+    <div class="intro-centre">
+      <p class="micro">WELCOME TO MY CREATIVE DESK</p>
+      <h2>Ideas look<br/><em>better</em> in motion.</h2>
+      <button class="pill pill--dark" id="enterStudio" type="button">Open the studio <span aria-hidden="true">↗</span></button>
+      <button class="text-btn" id="skipIntro" type="button">Skip intro · View portfolio</button>
+    </div>
+  </div>
+  <header class="topbar" id="top">
+    <a class="wordmark" href="#top" aria-label="Jhalak Agrahari home"><span class="wordmark-star">✳</span> jhalak<span class="wordmark-dot">.</span></a>
+    <nav class="nav" id="siteNav" aria-label="Main navigation">
+      <a href="#story">The idea</a><a href="#expertise">What I do</a><a href="#experience">Experience</a><a href="#connect">Contact</a><button id="soundBtnMobile" class="mobile-sound" type="button" aria-pressed="false">Sound: off ♫</button>
+    </nav>
+    <div class="header-actions">
+      <button type="button" class="small-action sound-btn" id="soundBtn" aria-pressed="false" title="Sound off by default">Sound: off</button>
+      <button type="button" class="small-action" id="recruiterBtn" aria-pressed="false" title="Toggle recruiter-friendly view">Quick HR view</button>
+      <a class="header-cv" href="resume/Jhalak_Agrahari_ATS_Resume.pdf" download>Download CV <span aria-hidden="true">↗</span></a>
+      <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="intro-line"><span class="status-dot"></span> AVAILABLE FOR REMOTE OPPORTUNITIES <span class="line-sep">/</span> NOIDA, INDIA</div>
+        <p class="small-index">01 / HELLO, NICE TO MEET YOU</p>
+        <h1 id="hero-title" tabindex="-1"><button id="nameColor" class="name-name" type="button" aria-label="Change Jhalak name colors">Jhalak<br />Agrahari<span class="name-asterisk" aria-hidden="true">✳</span></button></h1>
+        <p class="hero-sub">Social Media Manager <span aria-hidden="true">✳</span> Content Strategist <span aria-hidden="true">✳</span> Influencer Marketing</p>
+        <p class="hero-intro">I make brands feel seen through social strategy, content and creator partnerships.</p>
+        <div class="hero-ctas">
+          <a class="pill pill--plum" href="#experience">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="pill pill--outline" href="resume/Jhalak_Agrahari_ATS_Resume.pdf" download>Get my resume <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-playback"><button type="button" id="replayBuild" class="mini-control">↻ Replay the cursor magic</button></div>
+      </div>
+      <div class="hero-stage" id="heroStage" aria-label="Interactive portfolio desk where multiple cursors assemble content cards">
+        <div class="stage-grid" aria-hidden="true"></div>
+        <div class="orbit orbit-a" aria-hidden="true"></div><div class="orbit orbit-b" aria-hidden="true"></div>
+        <div class="stage-label">THE CREATIVE DESK <span class="stage-indicator">● LIVE CANVAS</span></div>
+        <div class="photo-window tilt" id="photoTilt">
+          <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span>jhalak.png</span><span>↗</span></div>
+          <img src="assets/jhalak-original-photo.png" alt="Original professional portrait of Jhalak Agrahari" width="410" height="615" loading="eager" />
+          <div class="photo-tag">A LITTLE BOLD. A LOT OF HEART. <span>✶</span></div>
+        </div>
+        <div class="floating-note floating-note--one"><span>✷ CURRENTLY EXPLORING</span><strong>What if a brand<br />felt like a person?</strong></div>
+        <div class="floating-note floating-note--two"><span>IN MY TOOLBOX</span><strong>ideas <i>+</i> people <i>+</i> strategy</strong></div>
+        <div class="badge-orbit">6+<span>YEARS<br />IN DIGITAL</span></div>
+        <div class="cursor-field" id="cursorField" aria-hidden="true"></div>
+        <div class="stage-footer">THINK / DESIGN / CONNECT <span></span></div>
+      </div>
+      <div class="hero-ticker" aria-hidden="true"><div>STRATEGY <span>✳</span> STORYTELLING <span>✳</span> CREATORS <span>✳</span> COMMUNITY <span>✳</span> STRATEGY <span>✳</span> STORYTELLING <span>✳</span> CREATORS <span>✳</span> COMMUNITY <span>✳</span></div></div>
+    </section>
+    <section class="story section shell" id="story" aria-labelledby="story-title">
+      <div class="section-kicker"><span>02 / THE BIG IDEA</span><span class="lozenge">WHY ALL THESE CURSORS?</span></div>
+      <div class="story-grid">
+        <div class="story-heading"><h2 id="story-title">One mind.<br /><em>Many</em> moving<br />pieces<span class="pink-period">.</span></h2><p class="scribble">↗ and yes, I love a little chaos.</p></div>
+        <div class="story-right"><p class="lead">A social media manager doesn't just click <strong>“post.”</strong></p><p>We're the research cursor, the writing cursor, the campaign cursor, the team cursor, the last-minute-fix cursor. Every little action adds up to how the world sees a brand.</p><p>That's why this website builds itself with lots of tiny cursors. <strong>Every click has a purpose. Every piece has a story.</strong></p><a href="#expertise" class="underlink">See how I connect the pieces <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="story-steps" id="storySteps">
+        <article class="story-step" data-step="1"><div class="step-card"><div class="step-num">01</div><div class="mini-fake-cursor">➤</div><h3>Notice.</h3><p>Trends, insights, people, conversations.</p><div class="step-line"><span></span></div></div></article>
+        <article class="story-step" data-step="2"><div class="step-card"><div class="step-num">02</div><div class="mini-fake-cursor">➤</div><h3>Shape.</h3><p>A sharp brief, a calendar, a better story.</p><div class="step-line"><span></span></div></div></article>
+        <article class="story-step" data-step="3"><div class="step-card"><div class="step-num">03</div><div class="mini-fake-cursor">➤</div><h3>Connect.</h3><p>Creators, teams, audiences, outcomes.</p><div class="step-line"><span></span></div></div></article>
+      </div>
+    </section>
+    <section class="expertise section shell" id="expertise" aria-labelledby="expertise-title">
+      <div class="section-kicker"><span>03 / WHAT I BRING</span><span>INTERACTIVE SKILL FILES ↓</span></div>
+      <div class="two-col-heading"><h2 id="expertise-title">My <em>creative</em><br />toolkit<span class="pink-period">.</span></h2><p>Click a folder. Explore what's inside.<br />The work is serious. The presentation doesn't have to be boring.</p></div>
+      <div class="desk-workspace" id="deskWorkspace">
+        <div class="folder-list" role="tablist" aria-label="Skill folders">
+          <button class="folder active" role="tab" aria-selected="true" aria-controls="folderPanel" id="tab1" data-folder="strategy" type="button"><span class="folder-icon">▰</span><span>01 / Strategy<br/><small>The thinking</small></span><span class="folder-arrow">↗</span></button>
+          <button class="folder" role="tab" aria-selected="false" tabindex="-1" aria-controls="folderPanel" id="tab2" data-folder="content" type="button"><span class="folder-icon">▰</span><span>02 / Content<br/><small>The storytelling</small></span><span class="folder-arrow">↗</span></button>
+          <button class="folder" role="tab" aria-selected="false" tabindex="-1" aria-controls="folderPanel" id="tab3" data-folder="creators" type="button"><span class="folder-icon">▰</span><span>03 / Creators<br/><small>The connections</small></span><span class="folder-arrow">↗</span></button>
+        </div>
+        <div class="folder-panel" id="folderPanel" tabindex="0" role="tabpanel" aria-labelledby="tab1">
+          <div class="panel-header"><span class="panel-dot-group">● ● ●</span><span id="panelHeader">strategy_notes.txt</span><span>↗</span></div>
+          <div class="panel-body"><div class="panel-title-wrap"><span id="panelEyebrow" class="micro">THE THINKING BEHIND THE POSTS</span><h3 id="panelTitle">Make it<br/><em>mean</em> something.</h3></div><p id="panelCopy">I work across content strategy, campaign planning, audience research, calendars, reporting and cross-team execution.</p><div class="panel-chips" id="panelChips"><span>Research</span><span>Content calendars</span><span>Reporting</span><span>Campaign planning</span></div><div class="panel-art" id="panelArt"><span class="art-orbit"></span><span class="art-note">strategy / 01</span><span class="art-sticker">✳</span></div></div>
+        </div>
+      </div>
+      <p class="qualifier">Skills described here reflect Jhalak's supplied resume. Mock digital cards are design illustrations, not client creative samples.</p>
+    </section>
+    <section class="impact section shell" id="impact" aria-labelledby="impact-title">
+      <div class="section-kicker"><span>04 / GROWTH IN CONTEXT</span><span>RESUME-REPORTED RESULTS</span></div>
+      <h2 id="impact-title">Good ideas.<br /><em>Measurable</em> impact.</h2>
+      <div class="impact-grid">
+        <div class="impact-tile"><span class="impact-number">6<span>+</span></span><h3>Years in marketing</h3><p>Experience timeline begins in February 2020.</p></div>
+        <div class="impact-tile"><span class="impact-number">60<span>%</span></span><h3>Audience engagement improvement</h3><p>Reported in resume for work at The Bold Marketers.</p></div>
+        <div class="impact-tile"><span class="impact-number">50<span>%</span></span><h3>Online sales uplift</h3><p>Reported in resume in connection with Cosmic Trio campaigns.</p></div>
+      </div>
+      <p class="disclosure">These figures are self-reported in the supplied CV; independent analytics screenshots were not provided. They should be validated with supporting evidence before interviews.</p>
+    </section>
+    <section class="experience section shell" id="experience" aria-labelledby="experience-title">
+      <div class="section-kicker"><span>05 / CAREER FILES</span><span>CLICK TO OPEN ↘</span></div>
+      <div class="two-col-heading"><h2 id="experience-title">Where I've<br /><em>made moves.</em></h2><p>Real job titles and dates from my CV. Each file opens to show what I worked on and the official company link where verified.</p></div>
+      <div class="timeline">
+        <details class="job" open><summary><span class="job-n">01</span><span class="job-main"><b>IT Nexora Tech Private Limited</b><small>Current position</small></span><span class="job-meta">Aug 2026 – Present</span><span class="job-plus">+</span></summary><div class="job-body"><p><strong>Current role.</strong> IT Nexora Tech Private Limited — current position listed in the supplied ATS resume. Specific responsibilities and official brand social URLs require confirmation before expanding the public description.</p><span class="job-role">CURRENT POSITION · VERIFY FULL TITLE</span></div></details>
+        <details class="job"><summary><span class="job-n">02</span><span class="job-main"><b>Balaji Travels</b><small>Digital Marketing Executive</small></span><span class="job-meta">Feb – Aug 2026</span><span class="job-plus">+</span></summary><div class="job-body"><p>Supported brand visibility and promotion across digital channels; coordinated content execution and ongoing marketing activities.</p><span class="job-role">TRAVEL · DIGITAL MARKETING</span><p class="muted">Multiple businesses share this name; exact official page awaits confirmation.</p></div></details>
+        <details class="job"><summary><span class="job-n">03</span><span class="job-main"><b>Galaxy Garments / Cosmic Trio</b><small>Content &amp; Social Media Manager</small></span><span class="job-meta">Jun – Aug 2025</span><span class="job-plus">+</span></summary><div class="job-body"><p>Planned seasonal content, supported influencer and brand-ambassador collaborations, and coordinated trend-led apparel campaigns. The CV reports a 50% online-sales uplift.</p><span class="job-role">APPAREL · CAMPAIGNS · CREATORS</span><div class="job-links"><a href="https://cosmictrio.com/" target="_blank" rel="noopener noreferrer">Cosmic Trio website ↗</a><a href="https://www.linkedin.com/posts/cosmictrio_cosmictrio-jeans-denim-activity-7194578577000992768-opps" target="_blank" rel="noopener noreferrer">Brand's public LinkedIn post ↗</a></div></div></details>
+        <details class="job"><summary><span class="job-n">04</span><span class="job-main"><b>DigiLantern</b><small>Social Media Executive</small></span><span class="job-meta">Oct 2024 – Jun 2025</span><span class="job-plus">+</span></summary><div class="job-body"><p>Managed brand social channels, created audience-focused content, collaborated across teams, and supported campaign delivery and performance improvement.</p><span class="job-role">SOCIAL CHANNELS · CREATIVE EXECUTION</span><div class="job-links"><a href="https://digilantern.com/" target="_blank" rel="noopener noreferrer">Company website ↗</a><a href="https://in.linkedin.com/company/digilantern" target="_blank" rel="noopener noreferrer">Company LinkedIn ↗</a></div></div></details>
+        <details class="job"><summary><span class="job-n">05</span><span class="job-main"><b>Oscorm Digital Pvt Ltd</b><small>Social Media Manager</small></span><span class="job-meta">Mar – Jun 2024</span><span class="job-plus">+</span></summary><div class="job-body"><p>Managed Instagram and Facebook schedules, coordinated campaigns, reported on performance and collaborated with creatives.</p><span class="job-role">SOCIAL MANAGEMENT · REPORTING</span></div></details>
+        <details class="job"><summary><span class="job-n">06</span><span class="job-main"><b>The Bold Marketers</b><small>Social Media Manager</small></span><span class="job-meta">Mar 2021 – Feb 2024</span><span class="job-plus">+</span></summary><div class="job-body"><p>Promoted from influencer-marketing work to social media management. Developed content plans, coordinated campaigns and creators. The CV reports a 60% improvement in engagement.</p><span class="job-role">SOCIAL STRATEGY · INFLUENCERS</span><p class="muted">Official company website/social handle not confidently established.</p></div></details>
+        <details class="job"><summary><span class="job-n">07</span><span class="job-main"><b>The Bold Marketers</b><small>Influencer Marketing Executive</small></span><span class="job-meta">Feb 2020 – Feb 2021</span><span class="job-plus">+</span></summary><div class="job-body"><p>Supported creator selection, outreach, negotiations, influencer campaign coordination and post-campaign reporting.</p><span class="job-role">CREATOR OUTREACH · COLLABORATIONS</span></div></details>
+      </div>
+      <p class="disclosure">These are employers/brands from the CV, not a list of independently authenticated clients. External social links appear only when reasonably attributable to the correct organization.</p>
+    </section>
+    <section class="education section shell" id="education" aria-labelledby="education-title">
+      <div class="section-kicker"><span>06 / EDUCATION & LEARNING</span><span>THE FOUNDATION</span></div>
+      <div class="education-grid">
+        <div><h2 id="education-title">Built on<br/><em>curiosity.</em></h2><p class="education-intro">Creative thinking meets an analytical foundation. Formal education and continued learning strengthen how I approach audiences, campaigns and communication.</p></div>
+        <div class="education-records">
+          <article class="education-card"><span>01 / POSTGRADUATE</span><strong>Master's in Economics</strong><p>NGB University · Prayagraj</p></article>
+          <article class="education-card"><span>02 / UNDERGRADUATE</span><strong>Bachelor of Commerce</strong><p>MGKVP University · Varanasi</p></article>
+          <article class="education-card"><span>03 / CERTIFICATION</span><strong>Digital Marketing Certification</strong><p>HubSpot Academy</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="recruiter section shell" id="recruiter" aria-labelledby="recruiter-title">
+      <div class="recruiter-card"><div><span class="micro">A NOTE FOR HIRING MANAGERS</span><h2 id="recruiter-title" tabindex="-1">Jhalak <em>Agrahari</em></h2><p>Social Media Manager with 6+ years across content strategy, influencer collaboration, campaign coordination and reporting. Based in Noida and open to remote opportunities across India.</p><div class="recruiter-actions"><a href="resume/Jhalak_Agrahari_ATS_Resume.pdf" download class="pill pill--dark">Download ATS CV ↗</a><a href="mailto:workfor.jhalakagrahari@gmail.com?subject=Interview%20Opportunity%20for%20Jhalak%20Agrahari" class="pill pill--outline">Invite to interview ↗</a><a href="https://wa.me/916388413606" class="pill pill--outline">WhatsApp</a><a href="tel:+916388413606" class="pill pill--outline">Call</a></div><nav class="recruiter-jumps" aria-label="Recruiter sections"><a href="#experience">Experience</a><a href="#impact">Results</a><a href="#education">Education</a><a href="#connect">Contact</a></nav></div><div class="recruiter-visual"><div class="paper-heading">RECRUITER<br/>SHORTCUT ✳</div><span>Strategy</span><span>Content</span><span>Influencers</span><span>Analytics</span><span>Campaigns</span></div></div>
+    </section>
+    <section class="connect section shell" id="connect" aria-labelledby="connect-title">
+      <div class="section-kicker"><span>07 / SAY HELLO</span><span>THE NEXT GOOD IDEA STARTS HERE</span></div>
+      <h2 id="connect-title">Let's make<br /><em>something</em> matter<span class="pink-period">.</span></h2>
+      <p>Got a role, a team or a brilliant challenge in mind? I'm one click away.</p>
+      <div class="contact-grid"><a class="contact-card" href="mailto:workfor.jhalakagrahari@gmail.com?subject=Opportunity%20for%20Jhalak%20Agrahari"><small>01 / EMAIL</small><strong>Let's talk work</strong><span>workfor.jhalakagrahari@gmail.com ↗</span></a><a class="contact-card" href="https://wa.me/916388413606?text=Hi%20Jhalak%2C%20I%20viewed%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer"><small>02 / WHATSAPP</small><strong>Message me</strong><span>+91 63884 13606 ↗</span></a><a class="contact-card" href="tel:+916388413606"><small>03 / CALL</small><strong>Let's connect</strong><span>+91 63884 13606 ↗</span></a></div>
+      <div class="contact-extras"><a href="assets/Jhalak_Agrahari_Contact.vcf" download>Save my contact ↘</a><a href="resume/Jhalak_Agrahari_ATS_Resume_Editable.docx" download>Editable resume ↘</a><button type="button" id="copyEmail">Copy email ↗</button></div>
+    </section>
+  </main>
+  <footer class="footer shell"><span class="wordmark">✳ jhalak<span class="wordmark-dot">.</span></span><span>MADE TO BE REMEMBERED · 2026</span><a href="#top">Back to top ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
